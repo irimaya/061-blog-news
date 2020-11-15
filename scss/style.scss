@@ -1,0 +1,140 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Font
+$font-title: 'Montserrat', sans-serif;
+$font-body: 'Montserrat', sans-serif;;
+
+// Colors
+$main-color: #f97b4f;
+$secondary-color: #8dc6bf;
+$third-color: #fcbc66;
+$fourth-color: #584053;
+$gray1-color: #4d4d4d;
+$gray2-color: #707070;
+$gray3-color: #f2f2f2;
+
+// Import
+@import 'mobile';
+
+// START HERE
+// General Style
+html,
+body {
+  font-family: $font-body;
+}
+
+// HEADER
+// Nav
+.subnav-info {
+  float: left;
+  ul {
+    list-style: none; 
+    padding-inline-start: 0px;
+    li {
+      float: left;
+      display: block;
+      padding: 5px;
+      text-align: center;
+      color: $gray1-color;
+      a {
+        color: $gray1-color;
+      }
+    } //End li
+  } //End ul
+} //End .subnav-info
+
+.subnav-social {
+  float: right;
+  ul {
+    list-style: none;
+    li {
+      float: right;
+      display: block;
+      padding: 10px;
+      text-align: center;
+      color: $gray1-color;
+    } //End li
+  } //End ul
+} //End .subnav-social
+
+.btn-outline-warning {
+  color: $main-color;
+  border-color: $main-color;
+}
+
+.navbar {
+  background: $gray3-color;
+  // float: right;
+  ul {
+    list-style: none;
+    float: right;
+    padding-inline-start: 0px;
+    li {
+      float: left;
+      // display: block;
+      padding-right: 20px;
+      text-align: center;
+      a {
+        color: $gray1-color;
+      }
+    } //End li
+  } //End ul
+}
+
+// Showcase
+// #showcase {
+  .btn-success {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+  }
+// }
+
+// Latest
+.bg-fb { 
+  background: #3c5192; 
+  // padding-top: 20px;
+  // padding-right: 24px;
+  // padding-left: 24px;
+}
+.bg-tw { background: #42b6ea; }
+.bg-ig { background: #b826ad; }
+.bg-yt { background: #db1e25; }
+.bg-ln { background: #226297; }
+.bg-pt { background: #b0181e; }
+
+#latest {
+  .col {
+    padding-right: 0;
+  }
+  .latest-social {
+    .btn {
+      padding: 0;
+      margin: 0;
+      width: 100px;
+      height: 80px;
+    }
+  }
+}
+
+#article {
+  .col {
+    padding-right: 0;
+  }
+  .latest-social-2 {
+    .btn {
+      padding: 0;
+      margin: 0;
+      width: 100px;
+      height: 80px;
+    }
+  }
+
+}
+
+
+
+
+
+

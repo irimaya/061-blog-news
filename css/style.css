@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Smartphones */
+/* Tablet */
+/* Normal */
+/* Widescreen */
+/* Landscape */
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.subnav-info {
+  float: left;
+}
+.subnav-info ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+.subnav-info ul li {
+  float: left;
+  display: block;
+  padding: 5px;
+  text-align: center;
+  color: #4d4d4d;
+}
+.subnav-info ul li a {
+  color: #4d4d4d;
+}
+
+.subnav-social {
+  float: right;
+}
+.subnav-social ul {
+  list-style: none;
+}
+.subnav-social ul li {
+  float: right;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.btn-outline-warning {
+  color: #f97b4f;
+  border-color: #f97b4f;
+}
+
+.navbar {
+  background: #f2f2f2;
+}
+.navbar ul {
+  list-style: none;
+  float: right;
+  padding-inline-start: 0px;
+}
+.navbar ul li {
+  float: left;
+  padding-right: 20px;
+  text-align: center;
+}
+.navbar ul li a {
+  color: #4d4d4d;
+}
+
+.btn-success {
+  background-color: #8dc6bf;
+  border-color: #8dc6bf;
+}
+
+.bg-fb {
+  background: #3c5192;
+}
+
+.bg-tw {
+  background: #42b6ea;
+}
+
+.bg-ig {
+  background: #b826ad;
+}
+
+.bg-yt {
+  background: #db1e25;
+}
+
+.bg-ln {
+  background: #226297;
+}
+
+.bg-pt {
+  background: #b0181e;
+}
+
+#latest .col {
+  padding-right: 0;
+}
+#latest .latest-social .btn {
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  height: 80px;
+}
+
+#article .col {
+  padding-right: 0;
+}
+#article .latest-social-2 .btn {
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  height: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */
